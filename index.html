@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>LetPopzz</title>
+  <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfKlUFEPcFxfkAM5A2CihAniKzVGj9wnN7Cg&s">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div>🌽LetPopzz</div>
+    <div class="icon" onclick="toggleMenu()">☰</div>
+    <nav id="navLinks">
+      <a href="#">Home</a>
+      <a href="#info">Info</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="main-sec">
+    <h1>Enjoy Popcorn Like Never Before</h1>
+    <p>Delicious, fresh, and delivered to your door!</p>
+    <marquee scrollamount="6">🌽 Limited Offer: Buy 1 Get 1 Free on all popcorn packs!</marquee>
+    <img src="pop.jpg" alt="Popcorn">
+    <button class="btn" onclick="showPopup()">Buy Now</button>
+  </section>
+
+  <section id="info" class="info-sec">
+    <div class="info-c">🍿 Always Fresh
+      <p>Crispy, hot, and made with love every time.</p>
+    </div>
+    <div class="info-c">🌽 Natural Ingredients
+      <p>No preservatives, just pure popcorn goodness.</p>
+    </div>
+    <div class="info-c">🚚 Fast Delivery
+      <p>From our kitchen to your couch in no time.</p>
+    </div>
+  </section>
+
+  <section class="test-sec">
+    <div class="test">"Kids love it, and so do we!" - Boo</div>
+    <div class="test">"LetPopzz is our movie night essential." - Tamil</div>
+    <div class="test">"Best popcorn I've ever had!" - Bala</div>
+  </section>
+
+  <footer id="contact">
+    &copy; 2025 LetPopzz. All rights reserved.
+  </footer>
+
+  <div class="popup" id="popup">
+    <h2>🎉 Thank You!</h2>
+    <p>We'll pop into your inbox soon 🍿</p>
+    <button onclick="hidePopup()">Close</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
